@@ -20,8 +20,7 @@ def write_last_execution_date(file_path, date):
     with open(file_path, 'w') as file:
         file.write(date)
         
-        
-last_execution_file = "last_execution_date.txt"
+last_execution_file = "C:\\Users\\kalan\\Desktop\\Project_Junk_Yard\\last_execution_date.txt"
 system_startup_date = get_system_startup_time()
 last_execution_date = read_last_execution_date(last_execution_file)
 
