@@ -44,7 +44,7 @@ The script supports the following file types:
 
 ## Customization
 
-You can customize the script by modifying the `file_extensions_dict` dictionary in the `organizer.py` file to add or remove file types.
+You can customize the script by modifying the `file_extensions_dict` dictionary in the `main.py` file to add or remove file types.
 Also, you can customize the target directory that you want to organize by changing this `desktop_path` variably by adding your desired path.
 
 ## Issues
